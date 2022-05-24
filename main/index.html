@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+        <title>Graph analyzer</title>
+        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Irina Skurikhina">
+
+        <!-- ================= Favicon ================== -->
+        <!-- Standard -->
+        <link rel="shortcut icon" href="img/favicon.png">
+
+        <!-- ============== Resources style ============== -->
+        <link rel="stylesheet" href="css/style-1.css" />
+
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+
+		<!-- Modernizr runs quickly on page load to detect features -->
+		<script src="js/modernizr.js"></script>
+	</head>
+	
+	<body id="dotty-variant">
+
+		<canvas id="dotty"></canvas>
+
+		<div class="loading-part animated-quick">
+
+			<div class="loader-part opacity-0 animated-quick">
+
+				<div class="loader-circle"></div>
+				<div class="loader-text">Graph analyzer</div>
+
+			</div>
+
+		</div>
+
+
+		<section id="home-part" class="scale-max">
+
+			<div class="overlay"></div>
+
+			<div class="item-title text-center animated-quick">
+
+				<!-- Your logo -->
+				<img src="img/networks.png" alt="" class="brand-logo"/>
+				
+				<h1 class="cd-headline letters rotate-2">
+					Web Graph
+
+					<div class="cd-words-wrapper">
+
+						<b class="is-visible">Biryulyovo&nbsp;Russia</b> <!-- use the code &nbsp; to add a space between 2 words -->
+						<b>11&nbsp;429&nbsp;nodes</b>
+						<b>20&nbsp;106&nbsp;edges</b>
+
+					</div>
+
+				</h1>
+
+				<p>Go to view visualization</p>
+
+				<a href="http://localhost:8000/map-communities" class="btn btn-light about-content">Interactive map by communities</a>
+				<a href="http://localhost:8000/map-degrees" class="btn btn-light about-content">Interactive map by degree</a>
+
+				<a href="http://localhost:3000" class="btn btn-color">Layout Force Atlas 2</a>
+				
+			</div> <!-- CLOSE item-title -->
+
+		</section> <!-- CLOSE #home-part -->
+
+
+
+
+	<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ********** Resources jQuery ********** -->
+    <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+	
+	<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easings.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Text rotator plugin -->
+	<script src="js/animated-headlines.js"></script>
+
+	<!-- Mozaic plugin -->
+	<script src="js/dotty.js"></script>
+
+	<!-- Main JS File -->
+	<script src="js/main.js"></script>
+	
+    <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+
+	</body>
+
+</html>
